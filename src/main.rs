@@ -1,5 +1,5 @@
 // mod print;
-// mod vars;
+mod vars;
 // mod types;
 // mod strings;
 // mod tuples;
@@ -12,11 +12,11 @@
 // mod structs;
 // mod enums;
 // mod cli;
-mod tpk_algorithm;
+// mod tpk_algorithm;
 
 fn main() {
     // print::run();
-    // vars::run();
+    vars::run();
     // types::run();
     // strings::run();
     // tuples::run();
@@ -29,5 +29,5 @@ fn main() {
     // structs::run();
     // enums::run();
     // cli::run();
-    tpk_algorithm::run();
+    // tpk_algorithm::run();
 }

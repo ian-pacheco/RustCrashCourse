@@ -33,4 +33,22 @@ pub fn run() {
     let face = '\u{1F600}';
 
     println!("{:?}", (x, y, z, is_active, is_greater, a1, face));
+
+    // addition
+    let sum = 5 + 10;
+
+    // subtraction
+    let difference = 95.5 - 4.3;
+
+    // multiplication
+    let product = 4 * 30;
+
+    // division
+    let quotient = 56.7 / 32.2;
+
+    // remainder
+    let remainder = 43 % 5;
+
+    println!("{:?}", (sum, difference, product, quotient, remainder));
+
 }
