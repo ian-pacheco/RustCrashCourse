@@ -36,7 +36,7 @@ pub fn run() {
     println!("first element of the array: {}", xs[0]);
     println!("second element of the array: {}", xs[1]);
 
-    // `len` returns the size of the array
+    // `len` returns the size of the array 
     println!("array size: {}", xs.len());
 
     // Arrays are stack allocated
